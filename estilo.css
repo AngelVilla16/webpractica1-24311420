@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    height: 100%;
+    background-color: #434343;
+    scroll-behavior: smooth;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    color: rgb(81, 0, 0);
+    border: 1px solid black;
+    background: linear-gradient(90deg, #ED213A,#93291E);
+    width: 100%;
+
+    z-index: 100;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+nav ul li{
+   
+    display: inline-block;
+  
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+     color: #ffcc00;
+     transform: scaleY(5px);
+     text-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+}
+main{
+    margin: 10px;
+    padding: 20px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section{
+    border: 1px solid black;
+    margin: auto;
+
+
+}
+.info {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    width: 100%;
+    margin: auto; 
+    margin-bottom: 10px;
+    text-align: justify;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3); 
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #93291E; 
+}
+.intermedio{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    width: 100%;
+    margin: auto; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3); 
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #93291E; 
+}
+.personajes{
+    width: 950px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.hechicero1 .hechicero2 .hechicero3 .hechicero4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Hechiceros{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    width: 100%;
+    margin: 10px; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3); 
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #93291E; 
+}
+.gojo{
+    width: 550px;
+    height: 350px;
+    border: 1px solid #955ceb;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    overflow: hidden;
+}
+.yuta{
+    width: 550px;
+    height: 350px;
+    border: 3px solid #4f0810;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    overflow: hidden;
+}
+.geto{
+    width: 550px;
+    height: 350px;
+    border: 1px solid #ffcc00;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    overflow: hidden;
+}

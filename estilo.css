@@ -257,7 +257,7 @@ section{
 @media(max-width: 480px){
     body{
         margin: 0;
-        overflow: hidden;
+       
     }
     .banner{
         width: 100%;
